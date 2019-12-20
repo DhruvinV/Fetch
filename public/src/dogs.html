@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Admin</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="../css/userProfile.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="../js/adminpage.js"></script>
+
+</head>
+<body onload="populateOwnerTable()">
+
+  <div class="sidenav">
+    <img class="logo" src="../images/Logo_copy.png">
+    <a href="adminpage.html">Reports</a>
+    <a href="walkers.html">Walkers</a>
+    <a id="curr" href="dogs.html">Owners</a>
+    <a href="allWalks.html">Walks</a>
+  </div>
+
+  <div class="topPanelBox"></div>
+
+  <div id="main">
+    <div class="page-header">
+      <h1>Admin</h1>
+    </div>
+
+    <h4>Owners</h4>
+
+    <form>
+      <div class="form-group row">
+        <!-- <button type="submit" class="btn-primary" id="reportSearchButton">Search</button> -->
+        <div class="col-sm-2">
+          <input type="text" class="form-control" onkeyup="javascript:searchTable('ownerTable');" id="searchReport" name="oid" placeholder="Owner ID">
+        </div>
+      </div>
+    </form>
+
+
+    <table id="ownerTable" class="table">
+      <thead>
+        <tr>
+          <th scope="col">Owner ID</th>
+          <th scope="col">Name</th>
+          <th scope="col">City</th>
+          <th scope="col">Email</th>
+          <th scope="col">Dogs</th>
+          <th scope="col">Date Joined</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- <tr>
+          <th scope="row"><a href="#">1</a></th>
+          <td><span class="link" onclick="javascript:showProfile();">Charlie</span></td>
+          <td>Toronto</td>
+          <td>abc@xyz.ca</td>
+          <td><span class="link">1</span></td>
+          <td>June 1st 2020</td>
+        </tr> -->
+      </tbody>
+    </table>
+
+  </div>
+
+</body>
+</html>

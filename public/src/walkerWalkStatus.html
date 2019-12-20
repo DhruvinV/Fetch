@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>My Walk</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../css/userProfile.css">
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="../css/common.css">
+	<link rel="stylesheet" type="text/css" href="../css/walkerWalkStatus.css">
+</head>
+
+<body>
+
+<div class="sidenav">
+	<img class="logo" src="../images/Logo_copy.png">
+	<a id="curr" href="searchForWalk.html">Start Walking</a>
+	<a href="walkerProfile.html">Profile</a>
+	<a href="pastWalks.html">Walk History</a>
+</div>
+
+<div class="topPanelBox"></div>
+
+<div class="pane-container">
+	<div class="top-pane">
+		<h2 class="pane-title">
+			Walk Parameters
+		</h2>
+		<div id="top-pane-body">
+			<div id="walk-details">
+				<span class="label">
+					Estimated Walk Finish Time
+                </span>
+                <span id="finish-time-container">
+					<span id="less-time" class="time-adjust">-</span>
+					<span id="finish-time"><!-- Put time here --></span>
+					<span id="more-time" class="time-adjust">+</span>
+				</span>
+
+			</div>
+			<div id="walker-notes">
+				<span class="label">
+					Walker Notes
+                </span>
+                <div id="notes-div">
+                    <ul>
+                        <!-- walker notes go here-->
+                    </ul>
+                </div>
+			</div>
+			<div id="price-estimate">
+				<span class="label">
+					Estimated price
+				</span>
+				<span id="price">
+					<!-- price goes here -->
+				</span>
+			</div>
+		</div>
+	</div>
+	<div class="left-pane">
+		<h2 class="pane-title">
+			Walk Status
+		</h2>
+		<div id="left-pane-body">
+			<div id="map">
+
+			</div>
+
+		</div>
+
+	</div>
+	<div class="right-pane">
+		<h2 class="pane-title">
+			Dog Info
+		</h2>
+		<div id="right-pane-body">
+			<div id="walker-container">
+				<!--Walker goes here-->
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="bottomPanelBox"></div>
+
+<script type="text/javascript" src="../js/walkerWalkStatus.js"> </script>
+
+</body>
+
+</html>

@@ -1,0 +1,44 @@
+.NavigationBar {
+  background-color: bisque;
+  margin: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0px;
+  left: 0px;
+  padding-top: 20px;
+
+  height: 100%;
+  width: 230px;
+  color: seagreen;
+
+}
+
+.NavField {
+  list-style-type: none;
+  color: white;
+
+}
+
+.NavigationBar a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.NavigationBar a:hover {
+  color: #f1f1f1;
+  background-color: seagreen;
+}
+
+.NavigationBar p {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: seagreen;
+  background-color:#f2ffe6;
+  border-left-style: solid;
+  border-width: 5px;
+  border-color: seagreen;
+}

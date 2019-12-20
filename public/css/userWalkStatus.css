@@ -1,0 +1,279 @@
+/*******************
+top pane styling
+*******************/
+
+#top-pane-body {
+	margin-top: 20px;
+	width: 100%;
+	height: 80%;
+}
+
+/* stack the top pane's contents beside each other */
+#top-pane-body > div {
+	float:left;
+}
+
+#walk-details {
+	width: 30%;
+    margin-top: 7px;
+    text-align: center;
+}
+
+#finish-time {
+    font-size: 150%;
+}
+
+#walker-notes {
+	width: 40%;
+}
+
+#notes-div {
+    min-height: 100px;
+}
+
+#notes-div ul {
+    padding: 5px;
+}
+
+#notes-div li {
+    margin-right: 10px;
+    display: inline-block;
+    list-style-type: circle;
+}
+
+#notes-div li:before {
+    content: '•';
+    position: relative;
+    font-size: 1.3em;
+    font-weight: bold;
+    top: 1px;
+    left: -3px;
+    color: orange;
+
+}
+
+#price-estimate {
+	width: 30%;
+	margin-top: 15px;
+}
+
+#price {
+	display: block;
+	text-align: center;
+	font-size: 150%;
+}
+
+/*******************
+left pane styling
+*******************/
+
+/* needed to make the below styling work */
+#left-pane-body {
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+}
+
+/* centered in the div */
+#map {
+	background-image: url("../images/map.png");
+	width: 1159px;
+	height: 704px;
+	position: absolute;
+	top: -9999px;
+    bottom: -9999px;
+    left: -9999px;
+    right: -9999px;
+    margin: auto;
+
+}
+
+/* Marker to show where the dog was picked up from */
+.pickup-marker {
+	background-color: green;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	border: 2px;
+	border-style: solid;
+	border-color: black;
+	position: absolute;
+}
+
+/* Marker to show where the walker is now */
+.walker-marker {
+	background-color: orange;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	border: 2px;
+	border-style: solid;
+	border-color: black;
+	position: absolute;
+}
+
+/*******************
+right pane styling
+*******************/
+
+#walker-container {
+	width: 100%;
+	height: 100%;
+}
+
+#right-pane-body {
+	margin-top: 0px;
+	height: 100%;
+	width: 100%;
+	position: relative;
+	overflow-y: auto; /* add a scroll bar if there's too many walkers */
+	overflow-x: hidden;
+}
+
+
+/*******************
+Select walker popup
+*******************/
+
+.walkerDisplay {
+	position: absolute;
+	top: 0%;
+	left: 0%;
+
+	width: 100%;
+	height: 100%;
+
+	text-align: center;
+
+	background-color: white;
+}
+
+.walker-popup-image {
+	max-width: 200px;
+	max-height: 200px;
+	border: 1px;
+	border-color: black;
+	border-style: solid;
+	display: block;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.walker-popup-name {
+	font-size: 200%;
+
+	/* add some space between image and name */
+	display: block;
+	margin-top: 20px;
+}
+
+.walker-popup-stars {
+	color: orange;
+	font-size: 125%;
+}
+
+.walker-popup-rating {
+	color: orange;
+	font-weight: bold;
+}
+
+.yes-button {
+	width: 20%;
+	position: relative;
+	right: 20px;
+	color: green;
+}
+
+.no-button {
+	width: 20%;
+	position: relative;
+	left: 20px;
+}
+
+.confirmation-div {
+	margin-top: 10px;
+}
+
+.detailsBox {
+	resize: none;
+	width: 300px;
+	height: 100px;
+	margin-bottom: 10px;
+}
+
+/***************************
+Walker rating box
+****************************/
+
+.rating-request {
+	font-size: 120%;
+	margin-top: 15px;
+}
+
+.rating-star {
+	color: orange;
+	font-size: 200%;
+	margin: 2px;
+}
+
+.rating-text {
+	color: #a0a0a0;
+	font-size: 80%;
+}
+
+.feedback-container {
+	max-width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.feedback {
+	display: inline-block;
+	border: 2px;
+	border-color: green;
+	border-style: solid;
+	padding: 2px 5px;
+	min-width: 70px;
+	color: green;
+	font-weight: bold;
+	font-size: 70%;
+
+	margin: 2px;
+	white-space:nowrap; /* prevents line break mid-box */
+}
+
+.report-problem-link {
+	color: red;
+	margin-top: 10px;
+	font-size: 70%;
+}
+
+.report-problem-link:hover{
+  cursor: pointer;
+}
+
+.feedback-box {
+	resize: none;
+	width: 90%;
+	height: 100px;
+	margin-bottom: 10px;
+	font-size: 80%;
+}
+
+.submit {
+	position: absolute;
+	bottom: 110px;
+	left: 10%;
+	height: 30px;
+	width: 80%;
+	color: white;
+	background-color: grey;
+}
+
+/****************************
+Empty space at bottom
+*****************************/
+.bottomPanelBox {
+	height: 200px;
+}

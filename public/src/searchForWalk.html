@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Search for Walk</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../css/userProfile.css">
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="../css/common.css">
+	<link rel="stylesheet" type="text/css" href="../css/searchForWalk.css">
+</head>
+
+<body>
+
+<div class="sidenav">
+	<img class="logo" src="../images/Logo_copy.png">
+	<a id="curr" href="searchForWalk.html">Start Walking</a>
+	<a href="walkerProfile.html">Profile</a>
+	<a href="pastWalks.html">Walk History</a>
+</div>
+
+<div class="topPanelBox"></div>
+
+<div class="pane-container">
+	<div class="top-pane">
+		<h2 class="pane-title">
+			Search for Walk
+		</h2>
+		<div id="top-pane-body">
+      		<button id="searchForWalkButton">Find walk</button>
+		</div>
+	</div>
+  <div class="left-pane">
+		<h2 class="pane-title">
+			Pickup Location
+		</h2>
+		<div id="left-pane-body">
+			<div id="map">
+			</div>
+		</div>
+	</div>
+  <div class="right-pane">
+		<h2 class="pane-title">
+			Walk Description
+		</h2>
+		<div id="right-pane-body">
+			<div id="walk-container">
+				<!--Walk description go here-->
+        <div class="user">
+          	<div id="dog-info"></div>
+		</div>
+		<div id="pickup-instructions"></div>
+        <div id="walk-length"></div>
+        <div id="walk-needs"></div>
+  		<div id="price-estimate"></div>
+      </div>
+		</div>
+	</div>
+</div>
+
+<div class="bottomPanelBox"></div>
+
+<script type="text/javascript" src="../js/searchForWalk.js"> </script>
+
+</body>
+
+</html>

@@ -1,0 +1,223 @@
+
+.logo {
+  width: 300px;
+  display: block;
+  padding-top: 20px;
+  /* padding-bottom: 20px; */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container {
+  padding: 16px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.loginbox {
+  text-align: center;
+  vertical-align: middle;
+  background: white;
+  width: 300px;
+  height: 330px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 180px;
+}
+
+#user {
+  margin-top: 20px;
+  height: 40px;
+  width: 270px;
+  margin-left: 15px;
+  border-top: 2px solid orange;
+  border-right: 2px solid orange;
+  border-bottom: 2px solid orange;
+  border-left: 2px solid orange;
+}
+
+#pass {
+  height: 40px;
+  width: 270px;
+  margin-bottom: 20px;
+  margin-left: 15px;
+  border-top: 2px solid seagreen;
+  border-right: 2px solid seagreen;
+  border-bottom: 2px solid seagreen;
+  border-left: 2px solid seagreen;
+}
+
+.loginbutton {
+  font: 14px Arial;
+  text-decoration: none;
+  background-color: white;
+  border-radius: 5px;
+  color: orange;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  padding-left: 121px;
+  padding-right: 121px;
+  border-top: 2px solid orange;
+  border-right: 2px solid orange;
+  border-bottom: 2px solid orange;
+  border-left: 2px solid orange;
+}
+
+.Walker {
+  font: 14px Arial;
+  text-decoration: none;
+  background-color: white;
+  border-radius: 5px;
+  color: seagreen;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  padding-left: 90px;
+  padding-right: 90px;
+  border-top: 2px solid seagreen;
+  border-right: 2px solid seagreen;
+  border-bottom: 2px solid seagreen;
+  border-left: 2px solid seagreen;
+}
+
+.Admin {
+  font: 14px Arial;
+  text-decoration: none;
+  background-color: white;
+  border-radius: 5px;
+  color: orange;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  padding-left: 92px;
+  padding-right: 92px;
+  border-top: 2px solid orange;
+  border-right: 2px solid orange;
+  border-bottom: 2px solid orange;
+  border-left: 2px solid orange;
+}
+
+.login {
+  color: seagreen;
+  font-family: "Arial";
+}
+
+.Register {
+  font: 14px Arial;
+  text-decoration: none;
+  background-color: white;
+  border-radius: 5px;
+  color: seagreen;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  padding-left: 80px;
+  padding-right: 80px;
+  border-top: 2px solid seagreen;
+  border-right: 2px solid seagreen;
+  border-bottom: 2px solid seagreen;
+  border-left: 2px solid seagreen;
+}
+
+.loginbutton {
+  height: 30px;
+  width: 280px;
+  margin-bottom: 10px;
+}
+
+.line {
+ height: 2px;
+ width: 100vw;
+ margin-left: -15px;
+ background-color: orange;
+}
+
+.signup {
+ border: 10px solid #55B17E;
+ background-color: white;
+ height: 400px;
+ width: 60%;
+ margin: auto;
+ margin-top: 50px;
+}
+
+.register-form {
+ width: 90%;
+ margin: auto;
+ margin-top: 40px;
+}
+
+#selectUser {
+  width: 270px;
+  margin-left: 15px;
+  text-indent: 95px;
+  color: white;
+  background-color: seagreen;
+}
+
+.logoSignup {
+  width: 200px;
+  margin-top: 10px;
+}
+
+#signupSubmit {
+  background-color: orange;
+  color: white;
+  border: 2px solid orange;
+  height: 40px;
+  width: 70px;
+  border-radius: 5px;
+}
+
+#signupSubmit:hover {
+  color: white;
+  background-color: darkorange;
+}
+
+#submit {
+  font: 14px Arial;
+  text-decoration: none;
+  background-color: orange;
+  border-radius: 5px;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 112px;
+  padding-right: 112px;
+  border: 2px solid orange;
+}
+
+.switch-field {
+    display: flex;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.switch-field input {
+    position: absolute !important;
+    clip: rect(0, 0, 0, 0);
+}
+
+.switch-field label {
+    width: 50%;
+    font-size: 14px;
+    line-height: 1;
+    text-align: center;
+    padding: 8px 16px;
+    margin-right: -1px;
+    transition: all 0.1s ease-in-out;
+}
+
+.switch-field label:hover {
+    cursor: pointer;
+    background-color: orange;
+    color: white;
+    border-radius: 5px;
+}
+
+.switch-field input:checked + label {
+    background-color: MediumSeaGreen;
+    color: white;
+    box-shadow: none;
+    border-radius: 5px;
+}
+
+
+</style>

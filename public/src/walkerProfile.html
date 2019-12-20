@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>User Profile</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="../css/userProfile.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="../js/adminpage.js"></script>
+
+
+</head>
+<body>
+
+  <div class="sidenav">
+    <img class="logo" src="../images/Logo_copy.png">
+    <a href="searchForWalk.html">Start Walking</a>
+    <a id="curr" href="userProfile.html">Profile</a>
+    <a href="pastWalks.html">Walk History</a>
+  </div>
+
+  <div class="topPanelBox"></div>
+
+  <div id="main">
+    <div class="page-header">
+      <h1>Walker Profile</h1>
+    </div>
+    </br>
+
+    <div class="media">
+
+      <img class="align-self-start mr-3" src="../images/defaultprofile.jpg" id="media-object">
+      <div class="media-body">
+        <div id="profInfo">
+            <p class="fname"> <span class="grey">First Name:</span> <span id="fname"></span> </p>
+          <p class="lname"> <span class="grey">Last Name:</span> <span id="lname"></span> </p>
+          <p class="e-mail"> <span class="grey">E-mail:</span> <span id="emailAddress"></span> </p>
+          <p class="address"> <span class="grey">Address:</span> <span id="address"></span> </p>
+          <p class="joinDate"> <span class="grey">Member Since:</span> <span id="joinDate"></span> </p>
+        </div>
+        <a class="btn btn-primary" href="walkerProfileEdit.html" role="button" id="editInfo">Edit</a>
+      </div>
+
+    </div>
+    <hr />
+    <h5>Description:</h5>
+    <p id="user-description"> <!-- Put the description here --></p>
+
+    <button class="btn btn-danger" id="signout"  onclick='window.location = "/users/logout"' id='add'>
+      Signout </button>
+    <button class="btn btn-danger" id="deleteacc" onclick="deleteacc(); return false;">
+      Delete your account</button>
+
+  </div>
+
+  <script type="text/javascript" src="../js/walkerProfile.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,66 @@
+
+/***********************
+Pane formatting
+************************/
+
+body {
+	/* the following lines prevent all text from being highlighted */
+	-webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Opera and Firefox */
+}
+
+/* Container to hold all the panes */
+
+.pane-container {
+	width: 1200px;
+	height: 800px;
+	margin-left: 250px;
+}
+
+.pane-container>div {
+	border-width: 0px;
+	margin: 0px;
+}
+
+.top-pane {
+	height: 20%
+}
+
+.left-pane {
+	float: left;
+	width: 69.8%;
+	height: 80%;
+}
+
+.right-pane {
+	float: right;
+	width: 29.8%;
+	height: 80%;
+}
+
+/* title bar */
+.pane-title {
+	background-color: white;
+	padding: 2px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	color: orange;
+	border-bottom-color: green;
+	border-bottom-width: 3px;
+	border-bottom-style: solid;
+	overflow: auto;
+}
+
+/* Label for elements within panes */
+.label {
+	display: block;
+	text-align: center;
+	padding-bottom: 3px;
+	font-size: 120%;
+	color: #808080;
+}

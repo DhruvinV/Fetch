@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Walk in Progress</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../css/userProfile.css">
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="../css/common.css">
+	<link rel="stylesheet" type="text/css" href="../css/userWalkStatus.css">
+</head>
+
+<body>
+
+<div class="sidenav">
+	<img class="logo" src="../images/Logo_copy.png">
+	<a href="requestWalk.html">Request Walker</a>
+	<a href="userProfile.html">Profile</a>
+	<a href="myWalk.html">Walk History</a>
+</div>
+
+<div class="topPanelBox"></div>
+
+<div class="pane-container">
+	<div class="top-pane">
+		<h2 class="pane-title">
+			Walk Parameters
+		</h2>
+		<div id="top-pane-body">
+			<div id="walk-details">
+				<span class="label">
+					Estimated Walk Finish Time
+                </span>
+                <p id="finish-time"> 30 min</p>
+
+			</div>
+			<div id="walker-notes">
+				<span class="label">
+					Walker Notes
+                </span>
+                <div id="notes-div">
+                    <ul>
+                        <!-- walker notes go here-->
+                    </ul>
+                </div>
+			</div>
+			<div id="price-estimate">
+				<span class="label">
+					Estimated price
+				</span>
+				<span id="price">
+					$20
+				</span>
+			</div>
+		</div>
+	</div>
+	<div class="left-pane">
+		<h2 class="pane-title">
+			Walk Status
+		</h2>
+		<div id="left-pane-body">
+			<div id="map">
+
+			</div>
+
+		</div>
+
+	</div>
+	<div class="right-pane">
+		<h2 class="pane-title">
+			My Walker
+		</h2>
+		<div id="right-pane-body">
+			<div id="walker-container">
+				<!--Walker goes here-->
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="bottomPanelBox"></div>
+
+<script type="text/javascript" src="../js/userWalkStatus.js"> </script>
+
+</body>
+
+</html>

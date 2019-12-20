@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Walk History</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="../css/myWalk.css">
+  <link rel="stylesheet" type="text/css" href="../css/userProfile.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="../js/adminpage.js"></script>
+</head>
+<body onload="populateAllWalks()">
+
+  <div class="sidenav">
+    <img class="logo" src="../images/Logo_copy.png">
+    <a href="adminpage.html">Reports</a>
+    <a href="walkers.html">Walkers</a>
+    <a href="dogs.html">Owners</a>
+    <a id="curr" href="allWalks.html">Walks</a>
+  </div>
+
+  <div class="topPanelBox"></div>
+
+  <div id="main">
+    <div class="page-header">
+      <h1>Admin</h1>
+    </div>
+
+    <h4>Walks</h4>
+
+    <form>
+      <div class="form-group row">
+        <!-- <button type="submit" class="btn-primary" id="reportSearchButton">Search</button> -->
+        <div class="col-sm-2">
+          <input type="text" class="form-control" onkeyup="javascript:searchTable('walkTable');" id="searchReport" name="rid" placeholder="Walk ID">
+        </div>
+      </div>
+    </form>
+
+    <table id="walkTable" class="table">
+      <thead>
+        <tr>
+          <th scope="col">Walk ID</th>
+          <th scope="col">Walker</th>
+          <th scope="col">Owner</th>
+          <th scope="col">Dog</th>
+          <th scope="col">Date</th>
+          <th scope="col">Duration</th>
+          <th scope="col">Price</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- <tr>
+          <th scope="row"><a href="#">1</a></th>
+          <td>Tim</td>
+          <td>John</td>
+          <td>Fluffy</td>
+          <td>20min</td>
+          <td>$15</td>
+        </tr> -->
+      </tbody>
+    </table>
+
+  </div>
+</body>
+</html>

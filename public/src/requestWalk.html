@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Request a Walk</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../css/userProfile.css">
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="../css/common.css">
+	<link rel="stylesheet" type="text/css" href="../css/requestWalk.css">
+</head>
+
+<body>
+
+<div class="sidenav">
+	<img class="logo" src="../images/Logo_copy.png" style="width:200px">
+	<a id="curr" href="requestWalk.html">Request Walker</a>
+	<a href="userProfile.html">Profile</a>
+	<a href="myWalk.html">Walk History</a>
+</div>
+
+<div class="topPanelBox"></div>
+
+<div class="pane-container">
+		<div class="dogList">
+			<h2 class="pane-title">Select Dog</h2>
+			<div id="dog-container">
+				<!-- put dogs in here -->
+			</div>
+		</div>
+	<div class="top-pane">
+		<h2 class="pane-title">
+			Walk Parameters
+		</h2>
+		<div id="top-pane-body">
+			<div id="walk-length">
+				<span class="label">
+					Walk length
+				</span>
+				<div id="walk-length-slider-container">
+					<input type="range" min="5" max="120" step="5" value="30" id="walk-length-slider">
+				</div>
+
+				<span id="walk-length-number">
+				30min
+				</span>
+			</div>
+			<div id="walk-needs">
+				<span class="label">
+					Walk needs
+				</span>
+				<div id="walk-needs-container">
+					<span class="walk-need">
+						Avoid other dogs
+					</span>
+					<span class="walk-need">
+						Treats
+					</span>
+					<span class="walk-need">
+						Water breaks
+					</span>
+					<span class="walk-need">
+						Stops often
+					</span>
+					<span class="walk-need">
+						Hyperactive
+					</span>
+					<span class="walk-need">
+						Puppy
+					</span>
+				</div>
+			</div>
+			<div id="price-estimate">
+				<span class="label">
+					Estimated price
+				</span>
+				<span id="price">
+					$20
+				</span>
+			</div>
+		</div>
+	</div>
+	<div class="left-pane">
+		<h2 class="pane-title">
+			Select Pickup Location
+		</h2>
+		<div id="left-pane-body">
+			<div id="map">
+
+			</div>
+
+		</div>
+
+	</div>
+	<div class="right-pane">
+		<h2 class="pane-title">
+			Available Walkers
+		</h2>
+		<div id="right-pane-body">
+			<div id="walker-container">
+				<!--Walkers go here-->
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="bottomPanelBox"></div>
+
+<script type="text/javascript" src="../js/requestWalk.js"> </script>
+
+</body>
+
+</html>

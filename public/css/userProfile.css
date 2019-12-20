@@ -1,0 +1,288 @@
+.topPanelBox {
+	height:100px;
+}
+
+#curr {
+	border-left: 10px solid green;
+	margin-left: 0px;
+
+}
+
+#curr:hover{
+	color:green;
+	cursor: default;
+}
+
+#reportSearchButton {
+	background-color: white;
+	border-radius: 5px;
+	border-color: seagreen;
+	margin-left: 15px;
+	color: seagreen;
+}
+
+#reportSearchButton:hover {
+	background-color: white;
+	color: orange;
+	border-color: orange;
+}
+
+
+/* The side navigation menu */
+.sidenav {
+  height: 100%;
+  width: 230px;
+  position: fixed;
+  z-index: 1;
+  top: 0px;
+  left: 0;
+  background-color: white;
+	border-right: 3px solid green;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: green;
+  display: block;
+	margin-left: 10px;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: orange;
+}
+
+.logo {
+	width: 200px;
+  margin-bottom: 15px;
+	margin-left: 15px;
+}
+
+.grey {
+  color:#818181
+}
+
+.link {
+    color:#0000FF;
+    cursor:pointer;
+}
+
+.page-header h1 {
+	color: orange;
+}
+
+.user {
+	width: 100%;
+	min-height: 105px;
+	display: block;
+	padding: 10px;
+	margin-bottom: 30px;
+}
+
+.user-pic {
+	float: left;
+	max-height: 100px;
+	max-width: 100px;
+	border: 1px;
+	border-color: black;
+	border-style: solid;
+	margin: 0px 0px 2px 2px;
+}
+
+.user-bio {
+	margin: 5px 5px 5px 115px;
+	overflow: auto;
+}
+
+.user-name {
+	font-size: 90%;
+	font-weight: bold;
+}
+
+.rating-stars {
+	color: orange;
+	font-size: 100%;
+	padding-left: 2px;
+	padding-right: 0px;
+}
+
+.rating-number {
+	color: orange;
+	font-weight: bold;
+	font-size: 90%;
+}
+
+.user-description {
+	font-size: 80%;
+	margin-top: 2px;
+}
+
+.mapimg {
+	width: 740px;
+	height: 400px;
+}
+
+#editInfo {
+	float: right;
+	margin-right: 10px;
+	background-color: orange;
+	color: white;
+	border: none;
+}
+
+#editInfo:hover {
+	background-color: darkorange;
+}
+
+#editDogInfo {
+	float: right;
+	margin-right: -5px;
+	background-color: orange;
+	color: white;
+	border: none;
+}
+
+#editDogInfo:hover {
+	background-color: seagreen;
+}
+
+
+#media-object {
+	width:200px;
+}
+
+#uploadPic {
+	width:200px;
+}
+
+#deleteacc {
+	right: 50px;
+	bottom: 20px;
+}
+
+#signout {
+	left: 260px;
+	bottom: 20px;
+}
+
+
+.container {
+	margin-left: 250px; /* Same as the width of the sidebar */
+}
+
+#defaultpp {
+	width: 150px;
+}
+
+.Editheader {
+	color: orange;
+}
+
+#saveButton {
+	color: white;
+	background-color: seagreen;
+	border: none;
+}
+
+#saveButton:hover {
+	background-color: #126537;
+}
+
+#resetButton {
+	color: white;
+	background-color: orange;
+}
+
+#resetButton:hover {
+	background-color: darkorange;
+}
+
+#fileInput {
+	margin-bottom: 10px;
+}
+
+.fileInputDiv {
+	border: solid Gainsboro 1px;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-bottom: 1px;
+	border-radius: 5px;
+}
+
+.persInfo {
+	margin-left: 12px;
+}
+
+
+
+#uploadPicButton {
+	color: white;
+	background-color: orange;
+	margin-top: 10px;
+	border: none;
+}
+
+#uploadPicButton:hover {
+	color: white;
+	background-color: darkorange;
+	margin-top: 10px;
+	border: none;
+}
+
+/* Style page content */
+#main {
+  margin-left: 250px; /* Same as the width of the sidebar */
+  padding: 0px 10px;
+}
+
+.editDog {
+	float: right;
+	margin-right: 10px;
+	background-color: orange;
+	color: white;
+	border: none;
+}
+
+.editDog:hover {
+	background-color: darkorange;
+}
+
+#addDog {
+	float: right;
+	margin-right: 10px;
+	color: white;
+	background-color: seagreen;
+	border: none;
+}
+
+#addDog:hover {
+	background-color: #126537;
+}
+
+.dog-info {
+	overflow: auto;
+}
+
+.refundButton {
+	background-color: seagreen;
+	border: none;
+}
+
+.refundButton:hover {
+	background-color: #126537;
+}
+
+.rejectButton {
+	background-color: orange;
+	border: none;
+}
+
+.rejectButton:hover {
+	background-color: darkorange;
+}
